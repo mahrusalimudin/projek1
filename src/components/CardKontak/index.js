@@ -10,18 +10,18 @@ const CardKontak = ({id, kontakItem, navigation, removeData}) => {
       onPress={() => navigation.navigate('DetailKontak', {id: id})}>
       <View>
         <Text style={styles.nama}>{kontakItem.nama}</Text>
-        <Text style={styles.noHP}>No. HP : {kontakItem.nomorHP}</Text>
+        <Text style={styles.noHP}>Alamat : {kontakItem.alamat}</Text>
       </View>
       <View style={styles.icon}>
         <FontAwesomeIcon
           icon={faEdit}
-          color={'orange'}
+          color={'green'}
           size={25}
           onPress={() => navigation.navigate('EditKontak', {id: id})}
         />
         <FontAwesomeIcon
           icon={faTimes}
-          color={'red'}
+          color={'green'}
           size={25}
           onPress={() => removeData(id)}
         />

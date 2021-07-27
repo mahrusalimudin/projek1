@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
   },
   btnTambah: {
     padding: 20,
-    backgroundColor: 'skyblue',
+    backgroundColor: 'green',
     borderRadius: 30,
     shadowColor: '#000',
     shadowOffset: {

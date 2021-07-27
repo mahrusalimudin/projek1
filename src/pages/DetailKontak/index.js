@@ -31,7 +31,7 @@ export default class DetailKontak extends Component {
         <Text>Nama : </Text>
         <Text style={styles.text}>{kontak.nama} </Text>
 
-        <Text>Nomor HP : </Text>
+        <Text>Foto : </Text>
         <Text style={styles.text}>{kontak.nomorHP} </Text>
 
         <Text>Alamat : </Text>

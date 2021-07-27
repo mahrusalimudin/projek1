@@ -61,7 +61,6 @@ export default class TambahKontak extends Component {
           value={this.state.nomorHP}
           namaState="nomorHP"
         />
-
         <InputData
           label="Alamat"
           placeholder="Masukkan Alamat"
@@ -72,7 +71,7 @@ export default class TambahKontak extends Component {
         />
 
         <TouchableOpacity style={styles.tombol} onPress={() => this.onSubmit()}>
-          <Text style={styles.textTombol}>SUBMIT</Text>
+          <Text style={styles.textTombol}>SIMPAN</Text>
         </TouchableOpacity>
       </View>
     );
@@ -85,7 +84,7 @@ const styles = StyleSheet.create({
     padding: 30,
   },
   tombol: {
-    backgroundColor: 'black',
+    backgroundColor: 'skyblue',
     padding: 10,
     borderRadius: 5,
     marginTop: 10,
